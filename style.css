@@ -1,0 +1,130 @@
+.header {
+  position: fixed;
+  top: 0;
+  height: 70px; 
+  width: 750px; 
+/*   margin-left:auto;
+  margin-right:auto; */
+  background:#222;
+  z-index:1;
+  margin: auto;
+  left:0;
+  right: 0;
+ } 
+  
+ .link-container {
+  text-align:center;
+  padding-top: 25px;
+ }
+
+.header a {
+  margin: 25px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:white;
+  font-size:20px;
+  text-decoration: none;
+ }
+a:hover {
+  color:cyan;
+}
+
+.content {
+  width: 750px;
+  margin-left:auto;
+  margin-right:auto; 
+  display:flex;
+  justify-content: space-between;
+  margin-top: 75px;
+  }
+.image {
+ background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size:1100px;
+  height:400px;
+}
+
+.leftside {
+  width: 300px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-between;
+  position:relative;
+}
+  
+.nameAK {
+  position:absolute;
+  width:300px;
+  font-family: 'Abril Fatface', cursive;
+  color:#222;
+  top:140px;
+  left:60px;
+}
+
+.nameAK h1{
+  font-size:60px;
+  line-height: 1.1;
+  margin-top:-20px;
+  font-weight:normal;
+  }
+
+#together {
+  margin-bottom:450px;
+}
+
+.main {
+  width: 430px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222; 
+  line-height: 1.4;
+  }
+.sum {
+  font-family: 'Josefin Sans', sans-serif;
+  color:#222; 
+  font-size:17px;
+  line-height: 1.6;
+  padding-top:20px;
+  margin-bottom: 100px;
+}
+
+.title {
+  font-size:22px;
+  font-weight: bold;
+  margin:0;
+ }
+.subtitle {
+  font-family: 'Merriweather', serif;
+  font-size:15px;
+  margin-top:5px; 
+  }
+.uppercase {
+ font-size:21px;
+ font-weight: bold;
+ text-transform: uppercase;
+ letter-spacing: 2px;
+ padding-top: 100px; 
+}
+ul {
+  margin-bottom:40px;
+}
+.quotes {
+  background:#484848;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 40px;
+  position:relative;
+  padding-top:50px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:50px;
+  margin-top:50px;
+  line-height: 1.5;
+  }
+.quotes::before{
+  content: '”';
+  font-size: 130px;
+  display: inline-block;
+  transform: rotate(180deg);
+  position:absolute;
+  top:-95px;
+  left:0;
